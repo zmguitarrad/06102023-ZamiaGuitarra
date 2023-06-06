@@ -1,0 +1,23 @@
+git init
+git remote add origin https://github.com/zmguitarrad/06102023-ZamiaGuitarra.git
+git branch -M main
+touch comando.txt
+touch main.js
+touch index.html
+ git status
+ git add .
+ git push -u origin main
+ git branch -M feature
+ mkdir Hardware
+ mkdir Software
+ mkdir SeguridadInformatica
+ touch {Hardware,Software, SeguridadInformatica}/resumen.txt 
+ git push origin head -u
+ git checkout main
+y repeti nuevamnete los comando para subir al repositorio
+
+
+
+
+
+
